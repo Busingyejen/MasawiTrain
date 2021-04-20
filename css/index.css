@@ -1,4 +1,25 @@
 img {
     width: 100%;
-    height: 40vh;
+    height: 520px;
+}
+
+body {
+    background-color: grey;
+    color: black;
+    width: 90%;
+    margin: auto;
+}
+
+nav {
+    background-color: goldenrod;
+    color: white;
+}
+
+div.feed {
+    background-color: goldenrod;
+}
+
+.menu {
+    list-style-type: none;
+    height: 50px;
 }
