@@ -13,10 +13,19 @@ body {
 nav {
     background-color: goldenrod;
     color: white;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 20px;
 }
 
 div.feed {
-    background-color: goldenrod;
+    color: black;
 }
 
 .menu {
