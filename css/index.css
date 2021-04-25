@@ -1,6 +1,6 @@
             img {
                 width: 100%;
-                height: 520px;
+                height: 500px;
             }
             
             body {
@@ -36,7 +36,7 @@
             
             .logo {
                 float: left;
-                margin-right: 700px;
+                margin-right: 400px;
                 padding-top: 10px;
                 font-style: oblique;
             }
@@ -51,45 +51,17 @@
                 padding: 20px;
             }
             
-            .form-style-6 h1 {
-                padding: 20px 0;
-                font-size: 140%;
-                font-weight: 300;
-                text-align: left;
-                color: #fff;
-                margin: -16px -16px 16px -16px;
+            .inputItems {
+                width: 300px;
+                height: 25px;
+                margin: 15px;
             }
             
-            .form-style-6 input[type="submit"],
-            .form-style-6 input[type="button"] {
-                box-sizing: border-box;
-                width: 20%;
-                padding: 1%;
-                background: white
+            textarea {
+                margin: 14px;
             }
             
-            .form-style-6 input[type="submit"]:hover,
-            .form-style-6 input[type="button"]:hover {
-                background: skyblue
-            }
-            
-            form-style-6 input[type="text"],
-            .form-style-6 input[type="date"],
-            .form-style-6 input[type="datetime"],
-            .form-style-6 input[type="email"],
-            .form-style-6 input[type="number"],
-            .form-style-6 input[type="search"],
-            .form-style-6 input[type="time"],
-            .form-style-6 input[type="url"],
-            .form-style-6 textarea,
-            .form-style-6 select {
-                outline: none;
-                box-sizing: border-box;
-                width: 20%;
-                background: #fff;
-                margin-bottom: 1%;
-                border: 1px solid #ccc;
-                padding: 10px;
-                color: #555;
-                font: 95% Arial, Helvetica, sans-serif;
+            #submit-button {
+                background-color: cyan;
+                border-radius: 3px;
             }
