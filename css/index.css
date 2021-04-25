@@ -11,25 +11,29 @@ body {
 }
 
 nav {
-    background-color: goldenrod;
     color: white;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-
-.nav li {
-    display: inline-block;
-    font-size: 20px;
-    padding: 20px;
-    list-style-type: none;
-}
-
-div.feed {
-    color: black;
+    float: right;
 }
 
 .menu {
     list-style-type: none;
     height: 50px;
+    float: right;
+}
+
+.menu-item {
+    display: inline-block;
+    padding: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.logo {
+    float: left;
+    margin-right: 400px;
+    padding-top: 10px;
 }
