@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FLEXJOBS</title>
+    <link rel="stylesheet" href="./bootstrap-5.0.0-beta3-dist/css/bootstrap-grid.min.css" />
     <style>
         body {
             margin: 0;
@@ -16,8 +17,8 @@
             background-image: radial-gradient(cyan, white);
             flex-direction: row;
             flex-wrap: wrap;
-            display: flex;
-            justify-content: center;
+            display: flexbox;
+            justify-content: space-between;
             align-items: stretch;
             background-color: maroon;
         }
@@ -31,6 +32,7 @@
             background: chocolate;
             height: 200px;
             width: 300px;
+            display: flex;
         }
     </style>
 </head>
@@ -40,45 +42,47 @@
     <div class="container">
         <div class="flex-item">
         </div>
+    </div>
 
-        <div class="flex-item">
-            <p>Facere eos eaque voluptatem tempora earum adipisci, natus totam, excepturi placeat sed modi. Officia modi minus accusantium voluptatem ipsa possimus, deserunt, molestias nostrum labore ad soluta perspiciatis est voluptas blanditiis fugiat
-                tempore dicta iusto.</p>
-        </div>
-        <div class=" flex-item">
-            <p>Debitis dolor laborum, animi repellendus eligendi sequi quasi cumque fugit omnis provident fuga doloribus harum odit error ratione libero dolorem a et ex? Nulla doloremque, possimus adipisci maxime recusandae porro commodi est voluptate accusamus!
-            </p>
-        </div>
-        <div class=" flex-item">
-            <p>Dolorem quibusdam quas, libero et fugiat placeat provident cum, quidem unde voluptatem distinctio corporis. Praesentium officiis corrupti quidem iure. Culpa, delectus dolore, quasi consectetur impedit tempora placeat vitae deleniti necessitatibus
-                suscipit ipsam ducimus doloribus?</p>
-        </div>
-        <div class=" flex-item">
-            <p>Asperiores quisquam rem nulla vel ad provident inventore iure est quam, placeat unde illum consequuntur magnam. Perferendis consequatur labore nulla illo pariatur maiores tempore neque molestiae sunt voluptatum? Porro, explicabo qui? Suscipit,
-                maiores perferendis?
-            </p>
-        </div>
-        <div class=" flex-item">
-            <p>Odio ipsum laborum ullam nesciunt libero, velit, tenetur, reprehenderit harum ut quaerat maiores natus. Dolore vitae rem dolorem consequatur error quisquam rerum ipsa tempore, blanditiis deleniti? Explicabo ratione officiis ea! At non doloremque
-                blanditiis?
-            </p>
-        </div>
-        <div class=" flex-item">
-            <p>Laudantium consequatur, quos rerum tempore dolore consequuntur ipsam eos in est maxime saepe odit illum veniam sit omnis doloremque odio sapiente, ipsa rem nesciunt expedita magni beatae, pariatur animi. Magnam illo doloremque maiores laudantium.
-            </p>
-        </div>
-        <div class=" flex-item">
-            <p>Magnam odio numquam sint sequi eum, beatae rem ut unde, quo repudiandae ducimus suscipit ad provident dolores sit? Voluptatum earum iste necessitatibus ullam id ducimus rem dolorem sapiente voluptates, nihil harum, qui facere quis?</p>
-        </div>
-        <div class=" flex-item">
-            <p>Harum voluptatibus labore quisquam corporis nobis illo dolorem vel minima perspiciatis, doloribus iusto recusandae consectetur assumenda, saepe nihil natus! Magni officiis minima, non dolores suscipit facilis, sapiente ratione veritatis reprehenderit
-                beatae eveniet odit ut.</p>
-        </div>
-        <div class=" flex-item">
-            <p>Reiciendis soluta, eum deleniti voluptas porro dolores veniam! Repellendus suscipit voluptatem, illo voluptatum iure, vel aliquam soluta in hic reprehenderit fugiat quo deserunt autem! Odio animi tempora adipisci voluptatem dolorum, totam
-                obcaecati ipsa porro.</p>
-        </div>
-
+    <div class="flex-item">
+        <p>Facere eos eaque voluptatem tempora earum adipisci, natus totam, excepturi placeat sed modi. Officia modi minus accusantium voluptatem ipsa possimus, deserunt, molestias nostrum labore ad soluta perspiciatis est voluptas blanditiis fugiat tempore
+            dicta iusto.</p>
+    </div>
+    <div class=" flex-item">
+        <p>Debitis dolor laborum, animi repellendus eligendi sequi quasi cumque fugit omnis provident fuga doloribus harum odit error ratione libero dolorem a et ex? Nulla doloremque, possimus adipisci maxime recusandae porro commodi est voluptate accusamus!
+        </p>
+    </div>
+    <div class=" flex-item">
+        <p>Dolorem quibusdam quas, libero et fugiat placeat provident cum, quidem unde voluptatem distinctio corporis. Praesentium officiis corrupti quidem iure. Culpa, delectus dolore, quasi consectetur impedit tempora placeat vitae deleniti necessitatibus
+            suscipit ipsam ducimus doloribus?</p>
+    </div>
+    <div class=" flex-item">
+        <p>Asperiores quisquam rem nulla vel ad provident inventore iure est quam, placeat unde illum consequuntur magnam. Perferendis consequatur labore nulla illo pariatur maiores tempore neque molestiae sunt voluptatum? Porro, explicabo qui? Suscipit,
+            maiores perferendis?
+        </p>
+    </div>
+    <div class=" flex-item">
+        <p>Odio ipsum laborum ullam nesciunt libero, velit, tenetur, reprehenderit harum ut quaerat maiores natus. Dolore vitae rem dolorem consequatur error quisquam rerum ipsa tempore, blanditiis deleniti? Explicabo ratione officiis ea! At non doloremque
+            blanditiis?
+        </p>
+    </div>
+    <div class=" flex-item">
+        <p>Laudantium consequatur, quos rerum tempore dolore consequuntur ipsam eos in est maxime saepe odit illum veniam sit omnis doloremque odio sapiente, ipsa rem nesciunt expedita magni beatae, pariatur animi. Magnam illo doloremque maiores laudantium.
+        </p>
+    </div>
+    <div class=" flex-item">
+        <p>Magnam odio numquam sint sequi eum, beatae rem ut unde, quo repudiandae ducimus suscipit ad provident dolores sit? Voluptatum earum iste necessitatibus ullam id ducimus rem dolorem sapiente voluptates, nihil harum, qui facere quis?</p>
+    </div>
+    <div class=" flex-item">
+        <p>Harum voluptatibus labore quisquam corporis nobis illo dolorem vel minima perspiciatis, doloribus iusto recusandae consectetur assumenda, saepe nihil natus! Magni officiis minima, non dolores suscipit facilis, sapiente ratione veritatis reprehenderit
+            beatae eveniet odit ut.</p>
+    </div>
+    <div class=" flex-item">
+        <p>Reiciendis soluta, eum deleniti voluptas porro dolores veniam! Repellendus suscipit voluptatem, illo voluptatum iure, vel aliquam soluta in hic reprehenderit fugiat quo deserunt autem! Odio animi tempora adipisci voluptatem dolorum, totam obcaecati
+            ipsa porro.</p>
+    </div>
 </body>
+
+
 
 </html>
