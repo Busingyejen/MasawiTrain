@@ -10,7 +10,7 @@
         body {
             margin: 0;
             padding: 0;
-            background-image: linear-gradient(rgb(131, 231, 161), pink);
+            background-image: linear-gradient(rgb(93, 189, 189), rgb(216, 106, 124));
             background-repeat: no-repeat;
             height: auto;
         }
@@ -24,41 +24,52 @@
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
-            background-color: rgb(56, 49, 54);
+            background-color: purple;
             height: 500px;
             color: orange;
+            list-style: none;
         }
         
         .content {
             display: flex;
             flex-flow: column wrap;
-            margin: 4px;
-            justify-content: space-between;
+            margin: 10px;
+            margin-left: 15px;
+            margin-right: 15px;
             align-content: space-between;
             border-style: dotted;
             border-radius: 500px;
             height: 100px;
             overflow: auto;
             float: inline-start;
+            background-color: gray;
+            padding: 15px;
         }
         
         a:hover {
-            color: black;
+            background-color: black;
+            color: orange;
         }
         
         a {
             color: orange;
+            text-decoration: none;
+            font-size: 25px;
         }
         
         .content:hover {
-            box-shadow: 10px 10px 10px rgb(119, 103, 114);
+            box-shadow: 10px 10px 10px rgb(180, 144, 168);
         }
         
         .footer {
-            color: rgb(71, 5, 46);
+            color: rgb(97, 5, 62);
             font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
             font-style: italic;
             font-weight: bolder;
+        }
+        
+        .toptext {
+            margin: 15px;
         }
     </style>
 </head>
@@ -66,14 +77,14 @@
 <body>
     <div class="container">
         <div class="main">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quam nemo eius voluptates fugiat enim voluptatibus rem, omnis consequuntur a veritatis dolores corporis minus ut? Expedita vel unde incidunt quibusdam iste illum. Cum repellendus
+            <p class="toptext">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quam nemo eius voluptates fugiat enim voluptatibus rem, omnis consequuntur a veritatis dolores corporis minus ut? Expedita vel unde incidunt quibusdam iste illum. Cum repellendus
                 deserunt aut amet expedita at totam. Veniam totam dolores facere vitae repudiandae voluptatum nulla. Cum aperiam vero quod fugit doloribus odit repudiandae, voluptate aliquam sint aspernatur consequatur, error quae qui provident ipsa,
                 suscipit molestias architecto deleniti quasi. Perferendis quibusdam soluta quas tempora aliquid cupiditate aperiam doloremque totam deleniti amet aliquam odit magnam alias, atque blanditiis eveniet at delectus tenetur qui. Tempore omnis
                 distinctio qui tenetur soluta?</p>
             <div class="item">
                 <div class="content">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique ea necessitatibus asperiores vero facilis cum tenetur, rem corrupti atque sapiente veniam porro nulla nesciunt totam vitae deleniti debitis pariatur eaque sequi aut
-                        magni doloremque quia ad. Quis accusantium dolorum quo voluptate sed laboriosam facilis nostrum!
+                    <p>Lorem ipsum dolor, Similique ea necessitatibus asperiores vero facilis cum tenetur, rem corrupti atque sapiente veniam porro nulla nesciunt totam vitae deleniti debitis pariatur eaque sequi aut magni doloremque quia ad. Quis accusantium
+                        dolorum quo voluptate sed laboriosam facilis nostrum!
                     </p>
                 </div>
                 <div class="content">
@@ -82,8 +93,8 @@
                     </p>
                 </div>
                 <div class="content">
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique ea necessitatibus asperiores vero facilis cum tenetur, rem corrupti atque sapiente veniam porro nulla nesciunt totam vitae deleniti debitis pariatur eaque sequi aut
-                        magni doloremque quia ad. Quis accusantium dolorum quo voluptate sed laboriosam facilis nostrum!
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. ea necessitatibus asperiores vero facilis cum tenetur, rem corrupti atque sapiente veniam porro nulla nesciunt totam vitae deleniti debitis pariatur eaque sequi aut magni doloremque
+                        quia ad. Quis accusantium dolorum quo voluptate sed laboriosam facilis nostrum!
                     </p>
                 </div>
                 <div class="content">
@@ -116,19 +127,20 @@
         </div>
         <div class="sidebar">
             <ul class="navigation">
-                <li class="navigation-item"><a href="">Link</a></li>
-                <li class="navigation-item"><a href="">Link</a></li>
-                <li class="navigation-item"><a href="">Link</a></li>
-                <li class="navigation-item"><a href="">Link</a></li>
-                <li class="navigation-item"><a href="">Link</a></li>
-                <li class="navigation-item"><a href="">Link</a></li>
+                <li class="navigation-item"><a href="">About</a></li>
+                <li class="navigation-item"><a href="">Home</a></li>
+                <li class="navigation-item"><a href="">Lunch offers</a></li>
+                <li class="navigation-item"><a href="">Reviews</a></li>
+                <li class="navigation-item"><a href="">Contacts</a></li>
+                <li class="navigation-item"><a href="">Lancers</a></li>
             </ul>
         </div>
 
     </div>
 
     <div class="footer">
-        <p> &copy; MASAWIJAYNEBUSINGYE@2021</p>
+        <p> &copy; MASAWI JAYNE 2021
+        </p>
     </div>
 </body>
 
