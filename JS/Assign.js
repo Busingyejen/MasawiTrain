@@ -4,7 +4,7 @@ function covid_check(Your_Temp) {
     if (Your_Temp == 33) {
         message = "Normal Temp";
     } else if (Your_Temp == 35) {
-        message = "Temp watchout";
+        message = "Temperature watchout";
     } else if (Your_Temp > 37) {
         message = "Please test for Covid";
 
