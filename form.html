@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="widith=device-width, intial scale=1.0">
+    <title>FORM FIELD</title>
+    <link rel="stylesheet" href="field.css">
+    <script>
+        function myJen() {
+            var y = document.getElementById("myTextarea").value;
+            document.getElementById("demo").innerHTML = y;
+        }
+    </script>
+</head>
+
+<body>
+    <div class="new">
+        <form action="#">
+            <label for="fname">First Name</label>
+            <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+            <label for="lname">Last Name</label>
+            <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <label for="lname">Email</label>
+            <input type="text" id="Email" name="Email" placeholder="Your Email..">
+
+            <label for="comment">Comment</label>
+            <textarea id="myTextarea" name="comment" placeholder="Write something.." style="height:200px"></textarea>
+            <!-- <input type="submit" value="Submit" onclick="myLoy()"/>-->
+            <button type="button" onclick="myJen()">SUBMIT</button>
+        </form>
+    </div>
+    <div class="soul">
+        <p id="demo" ondblclick="document.getElementById('demo').style.display = 'none'"></p>
+    </div>
+
+</body>
+
+</html>
